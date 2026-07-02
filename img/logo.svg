@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none">
+  <rect width="256" height="256" rx="48" fill="#8B5E3C"/>
+  <circle cx="128" cy="128" r="74" fill="#FFF7ED"/>
+  <path d="M92 106H160C164.418 106 168 109.582 168 114V136C168 152.569 154.569 166 138 166H106C89.4315 166 76 152.569 76 136V122C76 113.163 83.1634 106 92 106Z" fill="#8B5E3C"/>
+  <path d="M164 118H181C191.493 118 200 126.507 200 137C200 147.493 191.493 156 181 156H169" stroke="#8B5E3C" stroke-width="10" stroke-linecap="round"/>
+  <path d="M106 88C100 78 103 67 111 60" stroke="#D7A86E" stroke-width="8" stroke-linecap="round"/>
+  <path d="M128 86C122 76 125 65 133 58" stroke="#D7A86E" stroke-width="8" stroke-linecap="round"/>
+  <path d="M150 88C144 78 147 67 155 60" stroke="#D7A86E" stroke-width="8" stroke-linecap="round"/>
+  <text x="128" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#FFF7ED">Aroma Café</text>
+</svg>

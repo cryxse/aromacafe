@@ -1,0 +1,76 @@
+/* Собственные стили сайта: подключены отдельно от Bootstrap */
+
+:root {
+  --site-bg: #fbf7f1;
+  --site-primary: #8b5e3c;
+  --site-primary-dark: #6b4529;
+  --site-primary-soft: #f4e6d8;
+  --site-accent: #d7a86e;
+}
+
+body {
+  background: var(--site-bg);
+}
+
+.navbar-brand img {
+  flex-shrink: 0;
+}
+
+.nav-link.active {
+  font-weight: 700;
+  color: var(--site-primary) !important;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, var(--site-primary-soft), #fffdfb);
+}
+
+.hero-logo {
+  width: 120px;
+  height: 120px;
+}
+
+.card,
+.feature-box {
+  border: 0;
+  border-radius: 1rem;
+}
+
+.table-responsive {
+  overflow: hidden;
+}
+
+.btn-cafe {
+  background-color: var(--site-primary);
+  border-color: var(--site-primary);
+  color: #fff;
+}
+
+.btn-cafe:hover,
+.btn-cafe:focus {
+  background-color: var(--site-primary-dark);
+  border-color: var(--site-primary-dark);
+  color: #fff;
+}
+
+.btn-outline-cafe {
+  color: var(--site-primary);
+  border-color: var(--site-primary);
+}
+
+.btn-outline-cafe:hover,
+.btn-outline-cafe:focus {
+  background-color: var(--site-primary);
+  border-color: var(--site-primary);
+  color: #fff;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--site-accent);
+  box-shadow: 0 0 0 .25rem rgba(215, 168, 110, .25);
+}
+
+footer {
+  margin-top: auto;
+}
